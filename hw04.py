@@ -1,5 +1,5 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
+#        Name: tfernsler
 #       Peers: (add any collaborators)
 #  References: (anything you checked to solve this)
 # ------------------------------------------------------
@@ -9,8 +9,20 @@ secret_word = "food"
 
 # Task 1
 def check_text():
-    """ Add your docstring """
-    pass
+    """ This function checks if the user has used the secret word, and outputs
+    "You used the secret word!" is they do, it also outputs 'you used the word
+    "dog" or the word "Dog"!' if they use those words """
+        
+    while True:
+        user_str = input("give me a sentence: ")
+        if "food" in user_str:
+            print("You used the secret word!")
+            break
+        elif "dog"in user_str or "Dog" in user_str:
+            print('you used the word "dog" or the word "Dog"!')
+            break
+        else:
+            print("Try again")
 
 
 
