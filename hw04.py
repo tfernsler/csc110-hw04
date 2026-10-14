@@ -19,7 +19,7 @@ def check_text():
             print("You used the secret word!")
             break
         elif "dog"in user_str or "Dog" in user_str:
-            print('you used the word "dog" or the word "Dog"!\n')
+            print('you used the word \"dog\" or the word \"Dog\"!')
             break
         else:
             print("Try again")
@@ -45,8 +45,13 @@ def check_greater():
 
 # Task 3
 def get_special_numbers():
-    """ Add your docstring """
-    pass
+    """ this function examines numbers over a range and only prints them if they
+        meet the conditions: odd, multiple of 3, and not a multiple of 5 """
+    for i in range(1, 40):
+        if (i % 2 == 1) and (i % 3 == 0) and (i % 5 != 0):
+            print(i)
+        else:
+            pass
 
 
 # Task 4.a
