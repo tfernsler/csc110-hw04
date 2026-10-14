@@ -28,9 +28,19 @@ def check_text():
 
 # Task 2
 def check_greater():
-    """ Add your docstring """
-    pass
-
+    """ this function gets two integers from the user and checks which is greater """
+        
+    while True:
+        fir = input("give me an int: ")
+        seco = input("give me another int: ")
+        if fir > seco:
+            print("First is Greater")
+            break
+        elif seco > fir:
+            print("Second is Greater")
+            break
+        else:
+            print("Try again")
 
 
 # Task 3
