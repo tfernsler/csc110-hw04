@@ -19,7 +19,7 @@ def check_text():
             print("You used the secret word!")
             break
         elif "dog" in user_str or "Dog" in user_str:
-            print('you used the word \"dog\" or the word \"Dog\"!')
+            print("You used the word \"dog\" or the word \"Dog\"!")
             break
         else:
             print("Try again")
