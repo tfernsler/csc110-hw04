@@ -18,7 +18,7 @@ def check_text():
         if "food" in user_str:
             print("You used the secret word!")
             break
-        elif "dog"in user_str or "Dog" in user_str:
+        elif "dog" in user_str or "Dog" in user_str:
             print('you used the word \"dog\" or the word \"Dog\"!')
             break
         else:
@@ -71,8 +71,21 @@ def my_for_loop():
 
 # Task 4.b
 def my_while_loop():
-    """ Add your docstring """
-    pass
+    """ this loop offers the user a short menu, if they choose 'a' then the menu repeats,
+        'b' it prints 'Goodby' and returns, and 'c' the program exits, anything else and
+        it prints 'try again' and repeats """
+    while True:
+        chce = input("pick a, b, or c: ")
+        if chce == 'a':
+            continue
+        elif chce == 'b':
+            print("Goodbye")
+            return
+        elif chce == 'c':
+            sys.exit()
+        else:
+            print("try again")
+    
 
 # ---------------------------------------
 # Do not modify anything below this line
