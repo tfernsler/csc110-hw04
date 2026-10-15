@@ -15,7 +15,7 @@ def check_text():
         
     while True:
         user_str = input("give me a sentence: ")
-        if "food" in user_str:
+        if secret_word in user_str:
             print("You used the secret word!")
             break
         elif "dog" in user_str or "Dog" in user_str:
