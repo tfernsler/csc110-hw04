@@ -59,7 +59,7 @@ def my_for_loop():
     """ this function determines if each character in user input is a vowel or consonant """
     usr_str = input("give me a word between 2 and 5 chrs: ")
     if len(usr_str) >= 5 or len(usr_str) <= 2:
-        #print("bad word")
+        print("bad word")
         return
     vowels = ['a', 'e', 'i', 'o', 'u']
     for chr in usr_str:
