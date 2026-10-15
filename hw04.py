@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 #        Name: tfernsler
 #       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#  References: pythontutor, austinhenley.com/blog/vowels.html
 # ------------------------------------------------------
 import sys
 
@@ -56,8 +56,17 @@ def get_special_numbers():
 
 # Task 4.a
 def my_for_loop():
-    """ Add your docstring """
-    pass
+    """ this function determines if each character in user input is a vowel or consonant """
+    usr_str = input("give me a word between 2 and 5 chrs: ")
+    if 2 > len(usr_str) > 5:
+        return
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    for chr in usr_str:
+        if chr in vowels :
+            print(f"letter {chr} is a vowel")
+        else:
+            print(f"letter {chr} is a consonant")
+    
 
 # Task 4.b
 def my_while_loop():
