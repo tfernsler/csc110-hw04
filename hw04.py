@@ -64,9 +64,9 @@ def my_for_loop():
     vowels = ['a', 'e', 'i', 'o', 'u']
     for chr in usr_str:
         if chr in vowels:
-            print(f"letter {chr} is a vowel")
+            print(f"{chr} is a vowel")
         else:
-            print(f"letter {chr} is a consonant")
+            print(f"{chr} is a consonant")
     
 
 # Task 4.b
